@@ -10,8 +10,9 @@ Spoofify is a fun and interactive music playlist application. It allows you to l
 - **Song Selection**: Click on any song in the playlist to jump directly to it.
 
 ## Demo
+A video of the playlist in action can be viewed using spoofify_demo.zip
 
-![Spoofify Demo](./demo.png)
+![Spoofify Demo](./spoofify_thumbnail.png)
 
 
 
