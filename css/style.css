@@ -1,0 +1,140 @@
+main {
+    margin:auto;
+    width: 90%;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #EE8D86;
+    color: white;
+    padding:10px;
+    
+
+}
+
+
+
+#controls{
+    font-size:25px;
+
+}
+
+#formatTime{
+    display:flex;
+    justify-content: space-between;
+    margin:auto;
+    width:90%;
+}
+
+#volUp, #volDown, #playButton, #stop, #replay{
+    cursor:pointer;
+}
+#time, #duration {
+    width: 8%; 
+    text-align: center; 
+    display: inline-block;
+}
+
+#progress-container {
+    width: 87%; 
+    height: 10px;
+    background-color: #ccc;
+    margin: auto;
+    border-radius: 2px;
+    position: relative;
+}
+
+#progress-bar {
+    width: 0; 
+    height: 100%;
+    background-color: #F54B5C;
+    border-radius: 2px;
+}
+
+#vol{
+    margin-top:10px;
+}
+
+#progress-container-vol {
+    width: 20%; 
+    height: 10px;
+    background-color: #ccc;
+    margin: auto;
+    border-radius: 2px;
+    position: relative;
+    
+}
+
+#progress-bar-vol {
+    width: 0; 
+    height: 100%;
+    background-color: #E84661;
+    border-radius: 2px;
+    
+}
+
+body{
+    font-family: "Merriweather", serif;
+}
+
+#dets{
+    background-color: #FECDBC;
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius:15px;
+    color:black;
+    width:95%;
+    margin:auto;
+
+}
+
+#music{
+    background-color: #FAF7F2;
+    border-radius:15px;
+    width: 55%;
+    margin:auto;
+
+}
+
+#playlist{
+    text-align:left;
+    background-color: #FAF7F2;
+    border-radius:15px;
+    width: 40%;
+    margin:auto;
+
+}
+
+#playlist ul{
+    
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15px;
+}
+
+#playlist li {
+    font-weight:bold;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #E47A85;
+    border-radius:5px;
+    list-style-type: none;
+    border: 5px solid transparent;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+
+    
+}
+
+.bigDiv{
+    width: 87%;
+}
+
+.numDiv{
+    width:10%;
+}
+
+#music h2{
+    padding-top:10px;
+}
